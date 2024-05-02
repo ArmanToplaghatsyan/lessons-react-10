@@ -1,0 +1,50 @@
+.error{
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 90%;
+  min-height: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 30px;
+  padding-top: 5px;
+  border: 3px solid rgb(125, 107, 131);
+  border-radius: 10px;
+
+  h1{
+    color: rgb(149, 101, 149);
+    font-size: 120px;
+  }
+  h3{
+    color: rgb(45, 39, 56);
+    letter-spacing: 1px;
+    background-color:aliceblue ;
+  }
+  p{
+    color: rgb(38, 37, 52);
+  }
+  button{
+    width: 28%;
+    min-height: 44px;
+    border-radius: 20px;
+    color: whitesmoke;
+    background-color: blue;
+    border: 3px solid rgb(231, 236, 236);
+    transition: 0.75s;
+    &:hover{
+      color: blue;
+      border-color: blue;
+      background-color: whitesmoke;
+    }
+    a{
+      color: white;
+      font-size: 12px;
+      transition: 0.5s;
+      &:hover{
+        color: blue 
+      }
+    }
+  }
+}

@@ -9,11 +9,12 @@ export const AddStudent: React.FC = React.memo((): JSX.Element => {
     register,
     handleSubmit,
     reset,
-    formState: { errors },
+    formState: { errors }
   } = useForm<IStudent>();
+
   const save = (data: IStudent): void => {
-    console.log(data);
-    
+    console.log("+++",data);
+  
     addData<IStudent>(MyCollection.STUDENTS, data)
       .then(console.log)
       .catch(console.warn);
@@ -85,7 +86,7 @@ export const AddStudent: React.FC = React.memo((): JSX.Element => {
         </select>
         {errors.skills && <p>{errors.skills.message}</p>}
         <br />
-        <button>Save</button>
+        <button >Save</button>
       </form>
     </div>
   );

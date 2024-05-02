@@ -9,6 +9,32 @@
     min-height: 350px;
     row-gap: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+    input {
+      width: 40%;
+      border: 3px solid gray;
+      border-radius: 10px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      width: 100%;
+      min-height: 20px;
+      background-color: transparent;
+      transition: 1s;
+      color: black;
+      outline: none;
+      padding: 10px 0;
+
+      &:hover {
+        color: white;
+        background-color: rgb(214, 216, 231);
+        border: 3px solid rgb(57, 57, 63);
+      }
+    }
+
     div {
       background-color: rgb(202, 218, 214);
       display: flex;
@@ -19,6 +45,8 @@
       border: 3px solid rgb(202, 218, 214);
       border-radius: 10px;
       padding: 10px;
+
+     
       h1 {
         font-size: 40px;
         font-weight: 500;
