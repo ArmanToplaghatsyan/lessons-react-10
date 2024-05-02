@@ -1,0 +1,59 @@
+.groups {
+    background-color: rgb(226, 240, 237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    padding: 10px;
+    min-height: 350px;
+    row-gap: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    div {
+      background-color: rgb(202, 218, 214);
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      width: 90%;
+      border: 3px solid rgb(202, 218, 214);
+      border-radius: 10px;
+      padding: 10px;
+      h1 {
+        font-size: 40px;
+        font-weight: 500;
+        color: rgb(57, 57, 63);
+      }
+      p {
+        width: 90%;
+        text-align: center;
+        font-size: 20px;
+        color: gray;
+      }
+      button {
+        width: 90%;
+        height: 35px;
+        border: 3px solid rgb(202, 218, 214);
+        color: rgb(202, 218, 214);
+        background-color: rgb(57, 57, 63);
+        font-size: 28px;
+        transition: 0.5s;
+        border-radius: 10px;
+        &:hover {
+          color: rgb(104, 104, 104);
+          background-color: rgb(202, 218, 214);
+          border: 3px solid rgb(57, 57, 63);
+        }
+      }
+      a {
+        color: rgb(57, 57, 63);
+        text-decoration: none;
+        font-size: 20px;
+        transition: 0.5s;
+        &:hover {
+          color: rgb(0, 0, 0);
+        }
+      }
+    }
+  }
+  

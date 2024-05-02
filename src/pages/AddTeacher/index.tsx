@@ -20,9 +20,9 @@ export const AddTeacher: React.FC = React.memo((): JSX.Element => {
 
   return (
     <div className="addteacher">
-      <h2>Add Teacher </h2>
       <br />
       <form onSubmit={handleSubmit(save)}>
+      <h1>Add Teacher </h1>
         <br />
         <input
           type="text"
